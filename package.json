@@ -1,0 +1,23 @@
+{
+  "version": "0.0.1",
+  "name": "vuepress-plugin-baidu-seo",
+  "description": "Baidu Seo plugin for vuepress v1.x",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "license": "MIT",
+  "author": "rqh656418510",
+  "homepage": "https://github.com/rqh656418510/vuepress-plugin-baidu-seo",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rqh656418510/vuepress-plugin-baidu-seo.git"
+  },
+  "keywords": [
+    "vuepress",
+    "plugin",
+    "baidu",
+    "tongji",
+    "seo"
+  ]
+}
