@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "name": "vuepress-plugin-baidu-seo",
-  "description": "Baidu Seo plugin for vuepress v1.x",
+  "description": "Baidu SEO plugin for vuepress v1.x",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
