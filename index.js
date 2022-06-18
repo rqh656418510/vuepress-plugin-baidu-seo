@@ -5,11 +5,11 @@ module.exports = (options, ctx) => {
     name: 'vuepress-plugin-baidu-seo',
     define() {
       const { siteConfig = {} } = ctx
-      const ga = options.hm || siteConfig.hm
+      const hm = options.hm || siteConfig.hm
       const ignoreLocal = options.ignoreLocal || siteConfig.ignoreLocal
-      const HM_ID = ga || false
+      const HM = hm || false
       const IGNORE_LOCAL = ignoreLocal || false
-      return { HM_ID, IGNORE_LOCAL }
+      return { HM, IGNORE_LOCAL }
     },
 
     enhanceAppFiles: path.resolve(__dirname, 'enhanceAppFile.js')
