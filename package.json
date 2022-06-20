@@ -1,5 +1,5 @@
 {
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "vuepress-plugin-baidu-seo",
   "description": "Baidu SEO plugin for vuepress v1.x",
   "main": "index.js",
