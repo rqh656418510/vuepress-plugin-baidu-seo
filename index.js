@@ -1,6 +1,13 @@
-const path = require('path')
+const colors = require('colors');
+const { resolve } = require('path');
 
 module.exports = (options, ctx) => {
+  if (options.hm) {
+    console.log(colors.bold.white.bgBlue(' BAIDU SEO PLUGIN ') + ' running... ');
+  } else {
+    console.log(colors.bold.white.bgRed(' BAIDU SEO PLUGIN  option hm is required!'));
+  }
+
   return {
     name: 'vuepress-plugin-baidu-seo',
     define() {
@@ -12,6 +19,6 @@ module.exports = (options, ctx) => {
       return { HM, IGNORE_LOCAL }
     },
 
-    enhanceAppFiles: path.resolve(__dirname, 'enhanceAppFile.js')
+    enhanceAppFiles: resolve(__dirname, 'enhanceAppFile.js')
   }
 }

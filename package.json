@@ -19,5 +19,8 @@
     "baidu",
     "tongji",
     "seo"
-  ]
+  ],
+  "dependencies": {
+    "colors": "^1.4.0"
+  }
 }
