@@ -19,6 +19,7 @@ module.exports = (options, ctx) => {
       return { HM, IGNORE_LOCAL }
     },
 
-    enhanceAppFiles: resolve(__dirname, 'enhanceAppFile.js')
+    clientRootMixin: resolve(__dirname, 'clientRootMixin.js')
+
   }
 }
